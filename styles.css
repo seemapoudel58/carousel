@@ -1,0 +1,48 @@
+.slide-content{
+    margin-top:2rem;
+    height:90vh;
+    overflow-x:hidden;
+}
+.wrap{
+    position:relative;
+}
+.slide{
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width:50%;
+    margin:0 auto;
+}
+.slide1{ 
+    background-image: url(images/image-2.jpg);
+}
+.slide2{
+    background-image: url(images/image-3.jpg);
+}
+.slide3{
+    background-image: url(images/image-4.jpg);
+}
+.arrow{
+    cursor:pointer;
+    position:absolute;
+    top: 45%;
+    margin-top:-50px;
+
+}
+
+#arrow-left{
+    border-width: 15px 20px 15px 0;
+    border-color:transparent #fff transparent transparent;
+    left: 24%;
+    margin-left:45px;
+    border-style:solid;
+
+}
+#arrow-right{
+    border-width: 15px 0px 15px 20px;
+    border-color:transparent transparent transparent #fff ;
+    right: 24%;
+    margin-right:45px;
+    border-style:solid;
+
+}
