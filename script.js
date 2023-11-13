@@ -35,6 +35,7 @@ function slideRight() {
   sliderImages[current].style.display = 'block';
 }
 
+
 arrowLeft.addEventListener('click', slideLeft);
 
 arrowRight.addEventListener('click', slideRight);
