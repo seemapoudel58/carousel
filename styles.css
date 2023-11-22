@@ -17,8 +17,11 @@
     background-position: center;
     background-repeat: no-repeat;
     margin: 0 auto;
+    display: none;
 }
-
+.slide.active {
+    display: block;
+}
 .slide1 {
     background-image: url(images/image-2.jpg);
 }
@@ -51,5 +54,3 @@
 #arrow-right {
     right: 10px; 
 }
-
-
